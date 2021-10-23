@@ -1,0 +1,11 @@
+#description-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 100%;
+}
+
+.subheader {
+  margin-top: 40px;
+}

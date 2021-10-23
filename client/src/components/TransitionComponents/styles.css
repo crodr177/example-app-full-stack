@@ -1,0 +1,30 @@
+.box-builder {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px #9E9E9E;
+  height: 75%;
+  margin: 40px 0px;
+  width: 60%;
+  -webkit-box-shadow: 0 3px 10px #9E9E9E;
+  -moz-box-shadow: 0 3px 10px #9E9E9E;
+}
+
+.left-box {
+  position: absolute;
+  left: 2%;
+  transition: left 1.5s ease-in-out;
+}
+
+.left-box.transition-right {
+  left: 38%;
+}
+
+.right-box {
+  position: absolute;
+  right: 2%;
+  transition: right 1.5s ease-in-out;
+}
+
+.right-box.transition-left {
+  right: 38%;
+}
