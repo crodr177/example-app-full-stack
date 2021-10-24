@@ -5,7 +5,7 @@
   "description": "Full-stack Application using Express.JS for backend and React.JS for frontend",
   "main": "index.js",
   "scripts": {
-    "build": "cd client && npm install && npm run build && cd .. && cd server && npm start",
+    "build": "cd client && npm install && npm run build && cd .. && cd server && npm install && npm start",
     "client": "cd client && yarn start",
     "server": "cd server && yarn start",
     "start": "concurrently \"npm run client\" \"npm run server\""
