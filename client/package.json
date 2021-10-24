@@ -1,6 +1,6 @@
 {
-  "name": "example-app",
-  "homepage": "https://crodr177.github.io/example-app-project/",
+  "name": "client",
+  "homepage": "https://crodr177.github.io/example-app-full-stack/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
