@@ -4,7 +4,7 @@ This project is an example of a full-stack web application. It's a small project
 
 ## Hosted App
 
-Open [https://lit-atoll-15102.herokuapp.com/](https://lit-atoll-15102.herokuapp.com) to view it in the browser.
+Open [https://lit-atoll-15102.herokuapp.com](https://lit-atoll-15102.herokuapp.com) to view it in the browser.
 
 ## Available Scripts
 
