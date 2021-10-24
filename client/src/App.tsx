@@ -1,4 +1,4 @@
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -15,7 +15,7 @@ import {
 
 function App() {
   return (
-    <Router basename="/">
+    <Router>
       <title>{APP_TITLE}</title>
       <Header/>
       <Switch>
