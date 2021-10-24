@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/example-app-project/static/css/main.5278b19e.chunk.css",
-    "main.js": "/example-app-project/static/js/main.226273e1.chunk.js",
-    "main.js.map": "/example-app-project/static/js/main.226273e1.chunk.js.map",
-    "runtime-main.js": "/example-app-project/static/js/runtime-main.1cfc9790.js",
-    "runtime-main.js.map": "/example-app-project/static/js/runtime-main.1cfc9790.js.map",
-    "static/js/2.5aa890cf.chunk.js": "/example-app-project/static/js/2.5aa890cf.chunk.js",
-    "static/js/2.5aa890cf.chunk.js.map": "/example-app-project/static/js/2.5aa890cf.chunk.js.map",
-    "static/js/3.d87600c5.chunk.js": "/example-app-project/static/js/3.d87600c5.chunk.js",
-    "static/js/3.d87600c5.chunk.js.map": "/example-app-project/static/js/3.d87600c5.chunk.js.map",
-    "index.html": "/example-app-project/index.html",
-    "static/css/main.5278b19e.chunk.css.map": "/example-app-project/static/css/main.5278b19e.chunk.css.map",
-    "static/js/2.5aa890cf.chunk.js.LICENSE.txt": "/example-app-project/static/js/2.5aa890cf.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/example-app-project/static/media/background-image.4defd6cb.jpeg"
+    "main.css": "/example-app-full-stack/static/css/main.e1215ebf.chunk.css",
+    "main.js": "/example-app-full-stack/static/js/main.432c16b1.chunk.js",
+    "main.js.map": "/example-app-full-stack/static/js/main.432c16b1.chunk.js.map",
+    "runtime-main.js": "/example-app-full-stack/static/js/runtime-main.322b4942.js",
+    "runtime-main.js.map": "/example-app-full-stack/static/js/runtime-main.322b4942.js.map",
+    "static/js/2.2229b0eb.chunk.js": "/example-app-full-stack/static/js/2.2229b0eb.chunk.js",
+    "static/js/2.2229b0eb.chunk.js.map": "/example-app-full-stack/static/js/2.2229b0eb.chunk.js.map",
+    "static/js/3.9dc2ea94.chunk.js": "/example-app-full-stack/static/js/3.9dc2ea94.chunk.js",
+    "static/js/3.9dc2ea94.chunk.js.map": "/example-app-full-stack/static/js/3.9dc2ea94.chunk.js.map",
+    "index.html": "/example-app-full-stack/index.html",
+    "static/css/main.e1215ebf.chunk.css.map": "/example-app-full-stack/static/css/main.e1215ebf.chunk.css.map",
+    "static/js/2.2229b0eb.chunk.js.LICENSE.txt": "/example-app-full-stack/static/js/2.2229b0eb.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/example-app-full-stack/static/media/background-image.4defd6cb.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1cfc9790.js",
-    "static/js/2.5aa890cf.chunk.js",
-    "static/css/main.5278b19e.chunk.css",
-    "static/js/main.226273e1.chunk.js"
+    "static/js/runtime-main.322b4942.js",
+    "static/js/2.2229b0eb.chunk.js",
+    "static/css/main.e1215ebf.chunk.css",
+    "static/js/main.432c16b1.chunk.js"
   ]
 }
