@@ -2,6 +2,10 @@
 
 This project is an example of a full-stack web application. It's a small project that shows how you can run a frontend and backend concurrently. The frontend is using React.js with TypeScript while the backend is using a Node.js framwork called, Express.js. There are also some cool css features like: responsiveness, transitions, etc.
 
+## Hosted App
+
+Open [https://lit-atoll-15102.herokuapp.com/](https://lit-atoll-15102.herokuapp.com) to view it in the browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
