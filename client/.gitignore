@@ -13,10 +13,10 @@
 
 # lockfiles
 yarn.lock*
+package-lock.json
 
 # misc
 .DS_Store
-.DS_Store*
 .env.local
 .env.development.local
 .env.test.local
