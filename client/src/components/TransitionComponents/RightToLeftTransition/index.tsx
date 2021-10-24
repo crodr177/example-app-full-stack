@@ -6,9 +6,11 @@ import '../styles.css';
 import './styles.css';
 
 interface RightToLeftTransitionComponentProps {
+  description: String | null;
 }
  
 const RightToLeftTransitionComponent = (props: RightToLeftTransitionComponentProps) => {
+  const { description } = props;
   const divRef = useRef<HTMLDivElement | null>(null);
   const [transition, setTransition] = useState<boolean>(false);
 
@@ -29,7 +31,7 @@ const RightToLeftTransitionComponent = (props: RightToLeftTransitionComponentPro
 
   return ( 
     <div id="rtl-comp-container" className="row-direction" ref={divRef}>
-      <div className={`box-builder right-box ${!transition ? "" : "transition-left"}`}></div>
+      <div className={`box-builder right-box ${!transition ? "" : "transition-left"}`}>{description}</div>
     </div> 
   );
 }
