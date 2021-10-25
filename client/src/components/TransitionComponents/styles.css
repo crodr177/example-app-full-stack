@@ -1,32 +1,145 @@
 .box-builder {
+  align-items: center;
+  background-color: white;
   border: 1px solid transparent;
   border-radius: 5px;
   box-shadow: 0 3px 10px #9E9E9E;
+  display: flex;
+  flex-direction: column;
   height: 75%;
   margin: 40px 0px;
+  overflow: auto;
   padding: 20px;
-  text-align: center;
   width: 60%;
   -webkit-box-shadow: 0 3px 10px #9E9E9E;
   -moz-box-shadow: 0 3px 10px #9E9E9E;
+  z-index: 1;
+}
+
+.desc-underneath {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  overflow: auto;
+  text-align: center;
+  width: 30%;
+}
+
+.example-desc-underneath {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .left-box {
   position: absolute;
-  left: 2%;
+  left: 3%;
   transition: left 1.5s ease-in-out;
 }
 
 .left-box.transition-right {
-  left: 38%;
+  left: 37%;
 }
 
 .right-box {
   position: absolute;
-  right: 2%;
+  right: 3%;
   transition: right 1.5s ease-in-out;
 }
 
 .right-box.transition-left {
-  right: 38%;
+  right: 37%;
+}
+
+.row-direction {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.row-end {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.row-start {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.transition-comp-title-desc {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .box-builder {
+    width: 49%;
+  }
+
+  .desc-underneath {
+    width: 35%;
+  }
+
+  .desc-underneath {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .left-box {
+    left: 5%;
+  }
+  
+  .left-box.transition-right {
+    left: 46%;
+  }
+  
+  .right-box {
+    right: 5%;
+  }
+  
+  .right-box.transition-left {
+    right: 46%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .box-builder {
+    width: 40%;
+  }
+
+  .desc-underneath {
+    width: 30%;
+  }
+
+  .example-desc-underneath {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .left-box {
+    left: 5%;
+  }
+  
+  .left-box.transition-right {
+    left: 55%;
+  }
+  
+  .right-box {
+    right: 5%;
+  }
+  
+  .right-box.transition-left {
+    right: 55%;
+  }
 }

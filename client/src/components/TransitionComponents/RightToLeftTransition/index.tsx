@@ -1,4 +1,6 @@
 import { useLayoutEffect, useRef, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHandPointLeft } from '@fortawesome/free-solid-svg-icons';
 
 import { isElementAtPosition } from '../../../utils/helpers';
 
@@ -7,10 +9,11 @@ import './styles.css';
 
 interface RightToLeftTransitionComponentProps {
   description: String | null;
+  desciptionUnderneath: String | null;
 }
  
 const RightToLeftTransitionComponent = (props: RightToLeftTransitionComponentProps) => {
-  const { description } = props;
+  const { description, desciptionUnderneath } = props;
   const divRef = useRef<HTMLDivElement | null>(null);
   const [transition, setTransition] = useState<boolean>(false);
 
@@ -30,8 +33,23 @@ const RightToLeftTransitionComponent = (props: RightToLeftTransitionComponentPro
   }, [transition]);
 
   return ( 
-    <div id="rtl-comp-container" className="row-direction" ref={divRef}>
-      <div className={`box-builder right-box ${!transition ? "" : "transition-left"}`}>{description}</div>
+    <div id="rtl-comp-container" className="row-direction row-end" ref={divRef}>
+      <div className={`box-builder right-box ${!transition ? "" : "transition-left"}`}>
+        <p className="transition-comp-title-desc">{description}</p>
+      </div>
+      <div className="desc-underneath">
+        {
+          desciptionUnderneath !== null ?
+          (desciptionUnderneath) :
+          (
+            <div className="example-desc-underneath">
+              <FontAwesomeIcon icon={faHandPointLeft}/> 
+              <p><strong>Description from JSONPlaceholder.</strong></p> 
+              <p>Take a look at this cool <a target="_blank" rel="noreferrer" href="https://jsonplaceholder.typicode.com/">API</a>.</p>
+            </div>
+          )
+        }
+      </div>
     </div> 
   );
 }

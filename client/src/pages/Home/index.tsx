@@ -28,8 +28,8 @@ export const Home = (): JSX.Element => {
       <LandingSection/>
       <div id="description-section">
         <h3 className="subheader">This section uses css transitions with a bit of JavaScript for cool animations.</h3>
-        <RightToLeftTransitionComponent description={data !== null ? data[0].body : ''}/>
-        <LeftToRightTransitionComponent description={data !== null ? data[1].body : ''}/>
+        <RightToLeftTransitionComponent description={data !== null ? data[0].body : ''} desciptionUnderneath={null}/>
+        <LeftToRightTransitionComponent description={data !== null ? data[1].body : ''} desciptionUnderneath={null}/>
       </div>
     </div>
   );
