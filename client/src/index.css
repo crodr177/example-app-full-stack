@@ -27,8 +27,3 @@ a {
   padding: 70px 0px 0px 0px;
   width: 100%;
 }
-
-.row-direction {
-  display: flex;
-  flex-direction: row;
-}
