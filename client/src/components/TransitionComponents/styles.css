@@ -31,7 +31,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   padding: 20px 0px;
-  margin: 40px 20px;
+  margin: 40px;
   overflow: auto;
   text-align: center;
   width: 30%;
@@ -75,6 +75,7 @@
 }
 
 .row-direction {
+  align-items: center;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -128,6 +129,8 @@
   }
 
   .desc-underneath {
+    margin: 0px 20px;
+    padding: 0px;
     width: 30%;
   }
 
