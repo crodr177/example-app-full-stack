@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Home from './pages/Home';
 import Info from "./pages/Info";
 import Header from './components/Header';
+import ScrollToTop from "./utils/ScrollToTop";
 
 import { 
   APP_TITLE, 
@@ -18,6 +19,7 @@ function App() {
     <Router>
       <title>{APP_TITLE}</title>
       <Header/>
+      <ScrollToTop/>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" render={(props) => <About title={PAGE_TITLE_ABOUT} {...props} />} />
