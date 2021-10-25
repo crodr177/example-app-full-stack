@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   height: 75%;
-  margin: 40px 0px;
   overflow: auto;
   padding: 20px;
   width: 60%;
@@ -32,7 +31,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   padding: 20px 0px;
-  margin: 40px;
+  margin: 20px;
   overflow: auto;
   text-align: center;
   width: 30%;
@@ -76,7 +75,6 @@
 }
 
 .row-direction {
-  align-items: center;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -130,8 +128,6 @@
   }
 
   .desc-underneath {
-    margin: 20px 20px 0px 20px;
-    padding: 20px 0px;
     width: 30%;
   }
 
