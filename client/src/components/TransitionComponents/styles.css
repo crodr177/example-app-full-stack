@@ -57,7 +57,7 @@
 .left-box {
   position: absolute;
   left: 3%;
-  transition: left 1.5s ease-in-out;
+  transition: left 1.5s ease-in;
 }
 
 .left-box.transition-right {
@@ -67,7 +67,7 @@
 .right-box {
   position: absolute;
   right: 3%;
-  transition: right 1.5s ease-in-out;
+  transition: right 1.5s ease-in;
 }
 
 .right-box.transition-left {
