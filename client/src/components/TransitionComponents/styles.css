@@ -27,7 +27,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 75%;
+  height: 70%;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -130,8 +130,8 @@
   }
 
   .desc-underneath {
-    margin: 30px 20px 0px 20px;
-    padding: 0px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px 0px;
     width: 30%;
   }
 
