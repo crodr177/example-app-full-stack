@@ -2,7 +2,7 @@ interface AboutProps {
   title: String,
 }
  
-export const About = (props: AboutProps): JSX.Element => {
+const About = (props: AboutProps): JSX.Element => {
   const { title } = props;
 
   return (

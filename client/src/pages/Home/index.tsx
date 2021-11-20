@@ -12,7 +12,7 @@ type PostData = {
   body: String;
 }
 
-export const Home = (): JSX.Element => {
+const Home = (): JSX.Element => {
   const [data, setData] = useState<Array<PostData> | null>(null);
 
   useEffect(() => {

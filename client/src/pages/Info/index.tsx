@@ -2,7 +2,7 @@ interface InfoProps {
   title: String,
 }
  
-export const Info = (props: InfoProps): JSX.Element => {
+const Info = (props: InfoProps): JSX.Element => {
   const { title } = props;
 
   return (

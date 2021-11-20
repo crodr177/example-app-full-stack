@@ -2,7 +2,7 @@ interface ContactProps {
   title: String,
 }
  
-export const Contact = (props: ContactProps): JSX.Element => {
+const Contact = (props: ContactProps): JSX.Element => {
   const { title } = props;
 
   return (
