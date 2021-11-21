@@ -5,7 +5,7 @@ import RightToLeftTransitionComponent from '../../components/TransitionComponent
 
 import './styles.css';
 
-type PostData = {
+interface PostData {
   userId: number;
   id: number;
   title: String;
